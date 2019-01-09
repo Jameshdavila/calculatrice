@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Calculette</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script  src="javascript/calculadora.js"></script>
+	</head>
+	<body>
+		<center>
+		<div class="container">
+
+
+
+				<table class="calculadora">
+
+					<tr>
+
+							<td colspan="4"><span class="text" id="resultado">0</span></td>
+
+					</tr>
+
+					<tr>
+						<td><button class="operator"id="allclear" onclick="operadorfunc(this.id)" style="text-shadow: 5px 5px 5px black">AC</button></td>
+						<td><button class="operator"id="plusmoins" onclick="operadorfunc(this.id)">±</button></td>
+						<td><button class="operator"id="porcentage" onclick="operadorfunc(this.id)">%</button></td>
+						<td><button class="operator"id="division" onclick="operadorfunc(this.id)">÷</button></td>
+					</tr>
+
+					<tr>
+						<td><button class="numero" id="sept" onclick="operadorfunc(this.id)">7</button></td>
+						<td><button class="numero" id="huit" onclick="operadorfunc(this.id)">8</button></td>
+						<td><button class="numero" id="neuf" onclick="operadorfunc(this.id)">9</button></td>
+						<td><button class="operator" id="multiplication" onclick="operadorfunc(this.id)">x</button></td>
+					</tr>
+
+					<tr>
+						<td><button class="numero" id="quatre" onclick="operadorfunc(this.id)">4</button></td>
+						<td><button class="numero" id="cinq" onclick="operadorfunc(this.id)">5</button></td>
+						<td><button class="numero" id="six" onclick="operadorfunc(this.id)">6</button></td>
+						<td><button class="operator" id="soustraction" onclick="operadorfunc(this.id)">-</button></td>
+					</tr>
+
+					<tr>
+						<td><button class="numero" id="un" onclick="operadorfunc(this.id)">1</button></td>
+						<td><button class="numero" id="deux" onclick="operadorfunc(this.id)">2</button></td>
+						<td><button class="numero" id="trois" onclick="operadorfunc(this.id)">3</button></td>
+						<td><button class="operator" id="addition" onclick="operadorfunc(this.id)">+</button></td>
+					</tr>
+
+					<tr>
+						<td colspan="2"><button class="numero" id="cero" onclick="operadorfunc(this.id)"style="width: 156px">0</button></td>
+						<td><button class="numero" id="virgule" onclick="operadorfunc(this.id)">,</button></td>
+						<td><button class="operator" id="egal" onclick="operadorfunc(this.id)">=</button></td>
+					</tr>
+				</table>
+
+
+
+		</div>
+
+
+
+
+	</center>
+	</body>
+</html>
